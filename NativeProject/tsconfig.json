@@ -1,9 +1,12 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "lib" :[
-      "DOM"
-    ],
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["DOM"]
   },
-  "types": ["react-native", "react-native-vector-icons"],
+  "types": ["react-native", "react-native-vector-icons"]
 }
